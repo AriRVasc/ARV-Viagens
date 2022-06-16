@@ -4,28 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Reservas</title>
 </head>
 <body>
-    <div>
-
-            <header>
-               <img src="img/logo.png" alt="ARV Viagens"/>
-            </header>
+    <div class="container">
+        <header class="header">
+       <img class="logo" src="img/logo.png" alt="ARV Viagens"/>
+        </header>
        
-               <nav>
-       
-                   <ul>
-       
-                       <li> Home </li>
-                       <li>Promoções</li>
-                       <li>Passagens</li>
-                       <li>Hospedagem</li>
-                       <li>Pacotes</li>
-       
-       
-                   </ul>
-               </nav>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#">Promoções </a></li>
+                    <li><a href="passagens.html">Passagens</a></li>
+                    <li><a href="hospedagem.html">Hospedagem</a></li>
+                    <li><a href="#">Pacotes</a></li>
+                </ul>
+            </nav>
 
 
                <section>
@@ -51,16 +48,20 @@
                 <label for="adultos">Adultos:</label>
                     <input type="number" id="adultos" name="adultos" min="1" max="6" />
                     <label for="crianças">Crianças</label>
-                    <input type="number" id="crianças" name="crianças" min="1" max="3" />
-                    <input type="submit" id="enviar"/>
-                </label>
+                    <input type="number" id="crianças" name="crianças" min="1" max="3" /> </label>
+
+                <label for="checkin"> Check-in: <input type="date" name="checkin" id="checkin"></label>
+               <label for="checkout"> Check-out: <input type="date" name="checkout" id="checkout"></label>
+
+               <input type="submit" id="enviar"/>
                 </form>
                </section>
 
 
 
 
-               <footer>
+               <footer class="footer">
+                <img class="logo" src="img/logo.png" alt="ARV Viagens"/>
                 <ul>
                 <li>Insta</li>
                 <li>Twitter</li>

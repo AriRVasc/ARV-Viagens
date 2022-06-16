@@ -1,0 +1,60 @@
+
+.container{
+   background-color: #f2f2f2; 
+   width: 80%; 
+   margin-left: 10%;
+
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+/*cabeçalho da pagina*/
+.header{
+    background-color: gold;
+}
+
+/*menu inicio da pagina*/
+.nav-bar li{
+   float: left;
+   text-align: center;
+   letter-spacing: 1px;
+
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 25%;
+    background-color: royalblue;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.nav-bar li a {
+    color:white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+.nav-bar li a:hover{
+    background-color: gold;
+    color: blue;
+}
+
+.banner img{
+    display: block;
+    
+
+
+}
+.footer {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 10 px;
+}
