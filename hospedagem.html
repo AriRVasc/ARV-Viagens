@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source Sans Pro">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto Condensed">
@@ -35,7 +36,8 @@
 
         </section>
 
-        <section>
+        <section class= "resorts">
+
             <header> <b> Por que viajar? </b> </header>
 
             <article>
@@ -49,36 +51,39 @@
 
             </article>
         </section>
-
+        
+    <div>
      
         <!-- divisao da linha-->
-        <div>
+        <div class="row">
 
             <!-- divisao da coluna 1 -->
-            <div>
-                    <img src="img/alchymist.jpg" alt="alchymist">
-                    <div>
+            <div class="column">
+                    <img class= "img-card"src="img/alchymist.jpg" alt="alchymist"/>
+                    <div class="banner-card">
                         <a href="#">Alchymist Beach Club</a>
                     </div>
             </div>
 
             <!-- divisao da coluna 2 -->
-            <div>
-                <img src="img/cancun.jpg" alt="cancun">
-                <div>
+            <div class="column">
+                <img class= "img-card" src="img/cancun.jpg" alt="cancun"/>
+                <div class="banner-card">
                     <a href="#">Cancun Bay Resort</a>
                 </div>
             </div>
 
             <!-- divisao da coluna 3 -->
-            <div>
-                <img src="img/miami.jpg" alt="miami">
-                <div>
+            <div class="column">
+                <img class= "img-card" src="img/miami.jpg" alt="miami"/>
+                <div class="banner-card">
                     <a href="#">Miami Beach</a>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <section>
+            <section class="reserva">
                     <h3> Encontre seu próximo destino </h3>
                     <button type="button">Reserve Já</button>
             </section>
@@ -86,11 +91,12 @@
             <footer class="footer">
                 <img class="logo" src="img/logo.png" alt="ARV Viagens"/>
                 <ul>
-                <li><i class="fab fa-instagram"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-facebook"></i> </li>
+                    <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f fa-2x"></i></a></li>
             </ul>
-            <p>
+            <hr>
+            <p class="creditos">
         
                 &copy; ARV Tech - Brasil - 2022
             </p>
